@@ -5,10 +5,10 @@ import PersonCard from './components/PersonCard.js';
 function App() {
   return (
     <div className="App">
-      <PersonCard last_name="Doe" first_name="Jane" age={45} hair_color="Black"/>
-      <PersonCard last_name="Smith" first_name="John" age={88} hair_color="Brown"/>
-      <PersonCard last_name="Fillmore" first_name="Millard" age={50} hair_color="Brown"/>
-      <PersonCard last_name="Smith" first_name="Maria" age={62} hair_color="Brown"/>
+      <PersonCard last_name="Walters" first_name="Sean" age={45} hair_color="Black"/>
+      <PersonCard last_name="Murphy" first_name="Tara" age={38} hair_color="Brown"/>
+      <PersonCard last_name="Walters" first_name="Ronan" age={4} hair_color="Brown"/>
+      <PersonCard last_name="Bobo" first_name="Friendly" age={1} hair_color="Brown"/>
     </div>
   );
 }
